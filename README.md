@@ -27,7 +27,6 @@ To handle exception, you can add this code at your service layer.
 Don't forget to add catch (on AppException) for rethrowing the error to logic layer/ etc.
 
 ```dart
-@override
       ExceptionHandling.handelAPIError(
         desireStatusCode: 200, // passed status
         response: response, // your response
