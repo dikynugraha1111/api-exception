@@ -58,7 +58,7 @@ AppException errorResponse(ErrorType type) {
 }
 
 class ExceptionHandling {
-  static void handelAPIError({
+  static void handleAPIError({
     required int desireStatusCode,
     required Response response,
   }) {

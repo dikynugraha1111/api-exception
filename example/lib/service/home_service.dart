@@ -16,7 +16,7 @@ class HomeServiceImpl implements HomeService {
       final response = await httpClient.get(
         Uri.https("jsonplaceholder.typicode.com", "/todos/1"),
       );
-      ExceptionHandling.handelAPIError(
+      ExceptionHandling.handleAPIError(
         desireStatusCode: 200,
         response: response,
       );
